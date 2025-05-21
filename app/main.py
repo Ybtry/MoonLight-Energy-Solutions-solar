@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 import os
-from app.utils import load_data, summarize_data, plot_boxplot_multi_country, plot_time_series
+from utils import load_data, summarize_data, plot_boxplot_multi_country, plot_time_series # THIS LINE IS CHANGED!
 
 st.set_page_config(
     page_title="MoonLight Energy Solutions Dashboard (WIP)",
